@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Code Runner</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#1d1d1d" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <link rel="apple-touch-icon" href="icon-192.png" />
+</head>
+<body>
+  <h1>Code Runner</h1>
+  <textarea id="html" placeholder="HTML code"></textarea>
+  <textarea id="css" placeholder="CSS code"></textarea>
+  <textarea id="js" placeholder="JavaScript code"></textarea>
+  <button onclick="runCode()">Run</button>
+  <iframe id="preview"></iframe>
+  <pre id="fullCode"></pre>
+  <div id="explanation">Explanation will appear here...</div>
+  <script src="script.js"></script>
+</body>
+</html>
